@@ -11,6 +11,7 @@
 		1AD577A31CBEA8730074DBE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AD577A11CBEA8730074DBE6 /* Main.storyboard */; };
 		1AD577A51CBEA8730074DBE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AD577A41CBEA8730074DBE6 /* Assets.xcassets */; };
 		1AD577A81CBEA8730074DBE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AD577A61CBEA8730074DBE6 /* LaunchScreen.storyboard */; };
+		8EF2862A2379D02F008CA385 /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF286292379D02F008CA385 /* SettingTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		1AD577A41CBEA8730074DBE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AD577A71CBEA8730074DBE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AD577A91CBEA8730074DBE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EF286292379D02F008CA385 /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				1AD577A11CBEA8730074DBE6 /* Main.storyboard */,
+				8EF286292379D02F008CA385 /* SettingTableViewCell.swift */,
 				1AD577A41CBEA8730074DBE6 /* Assets.xcassets */,
 				1AD577A61CBEA8730074DBE6 /* LaunchScreen.storyboard */,
 				1AD577A91CBEA8730074DBE6 /* Info.plist */,
@@ -111,6 +114,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -142,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EF2862A2379D02F008CA385 /* SettingTableViewCell.swift in Sources */,
 				1AD5779E1CBEA8730074DBE6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
